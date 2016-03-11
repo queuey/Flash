@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C5208371C917C9600634546 /* NSArray+YBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C52080E1C917C9600634546 /* NSArray+YBAdd.m */; };
+		6C5208381C917C9600634546 /* NSIndexPath+Offset.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5208101C917C9600634546 /* NSIndexPath+Offset.m */; };
+		6C5208391C917C9600634546 /* NSNotificationCenter+MainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5208121C917C9600634546 /* NSNotificationCenter+MainThread.m */; };
+		6C52083A1C917C9600634546 /* NSString+RegexCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5208141C917C9600634546 /* NSString+RegexCategory.m */; };
+		6C52083B1C917C9600634546 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5208161C917C9600634546 /* NSString+Size.m */; };
+		6C52083C1C917C9600634546 /* NSString+YBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5208181C917C9600634546 /* NSString+YBAdd.m */; };
+		6C52083D1C917C9600634546 /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C52081B1C917C9600634546 /* UIAlertView+Block.m */; };
+		6C52083E1C917C9600634546 /* UIButton+Submitting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C52081D1C917C9600634546 /* UIButton+Submitting.m */; };
+		6C52083F1C917C9600634546 /* UIButton+YBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C52081F1C917C9600634546 /* UIButton+YBAdd.m */; };
+		6C5208401C917C9600634546 /* UIColor+YBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5208211C917C9600634546 /* UIColor+YBAdd.m */; };
+		6C5208411C917C9600634546 /* UILabel+YBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5208231C917C9600634546 /* UILabel+YBAdd.m */; };
+		6C5208421C917C9600634546 /* UINavigationController+JZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5208251C917C9600634546 /* UINavigationController+JZExtension.m */; };
+		6C5208431C917C9600634546 /* UINavigationController+YBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5208271C917C9600634546 /* UINavigationController+YBAdd.m */; };
+		6C5208441C917C9600634546 /* UITextField+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5208291C917C9600634546 /* UITextField+Blocks.m */; };
+		6C5208451C917C9600634546 /* UITextField+YBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C52082B1C917C9600634546 /* UITextField+YBAdd.m */; };
+		6C5208461C917C9600634546 /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C52082D1C917C9600634546 /* UIView+Shake.m */; };
+		6C5208471C917C9600634546 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C52082F1C917C9600634546 /* UIView+Toast.m */; };
+		6C5208481C917C9600634546 /* UIView+YBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5208311C917C9600634546 /* UIView+YBAdd.m */; };
+		6C5208491C917C9600634546 /* MBProgressHUD+Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5208341C917C9600634546 /* MBProgressHUD+Show.m */; };
+		6C52084A1C917C9600634546 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6C5208351C917C9600634546 /* README.md */; };
+		6C6448121C8FD03F005048C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6448111C8FD03F005048C7 /* main.m */; };
+		6C6448151C8FD03F005048C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6448141C8FD03F005048C7 /* AppDelegate.m */; };
+		6C6448181C8FD03F005048C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6448171C8FD03F005048C7 /* ViewController.m */; };
+		6C64481B1C8FD03F005048C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6448191C8FD03F005048C7 /* Main.storyboard */; };
+		6C64481D1C8FD03F005048C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C64481C1C8FD03F005048C7 /* Assets.xcassets */; };
+		6C6448201C8FD03F005048C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C64481E1C8FD03F005048C7 /* LaunchScreen.storyboard */; };
+		A449A6805346C01053DCF321 /* libPods-Flash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2427A0756B4EC497AB12FF0 /* libPods-Flash.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		143CD0A24EDF07FA67BB470B /* Pods-Flash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flash/Pods-Flash.release.xcconfig"; sourceTree = "<group>"; };
+		6C52080D1C917C9600634546 /* NSArray+YBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YBAdd.h"; sourceTree = "<group>"; };
+		6C52080E1C917C9600634546 /* NSArray+YBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YBAdd.m"; sourceTree = "<group>"; };
+		6C52080F1C917C9600634546 /* NSIndexPath+Offset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+Offset.h"; sourceTree = "<group>"; };
+		6C5208101C917C9600634546 /* NSIndexPath+Offset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+Offset.m"; sourceTree = "<group>"; };
+		6C5208111C917C9600634546 /* NSNotificationCenter+MainThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+MainThread.h"; sourceTree = "<group>"; };
+		6C5208121C917C9600634546 /* NSNotificationCenter+MainThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+MainThread.m"; sourceTree = "<group>"; };
+		6C5208131C917C9600634546 /* NSString+RegexCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RegexCategory.h"; sourceTree = "<group>"; };
+		6C5208141C917C9600634546 /* NSString+RegexCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegexCategory.m"; sourceTree = "<group>"; };
+		6C5208151C917C9600634546 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		6C5208161C917C9600634546 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		6C5208171C917C9600634546 /* NSString+YBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YBAdd.h"; sourceTree = "<group>"; };
+		6C5208181C917C9600634546 /* NSString+YBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YBAdd.m"; sourceTree = "<group>"; };
+		6C52081A1C917C9600634546 /* UIAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
+		6C52081B1C917C9600634546 /* UIAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
+		6C52081C1C917C9600634546 /* UIButton+Submitting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Submitting.h"; sourceTree = "<group>"; };
+		6C52081D1C917C9600634546 /* UIButton+Submitting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Submitting.m"; sourceTree = "<group>"; };
+		6C52081E1C917C9600634546 /* UIButton+YBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YBAdd.h"; sourceTree = "<group>"; };
+		6C52081F1C917C9600634546 /* UIButton+YBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YBAdd.m"; sourceTree = "<group>"; };
+		6C5208201C917C9600634546 /* UIColor+YBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YBAdd.h"; sourceTree = "<group>"; };
+		6C5208211C917C9600634546 /* UIColor+YBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YBAdd.m"; sourceTree = "<group>"; };
+		6C5208221C917C9600634546 /* UILabel+YBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YBAdd.h"; sourceTree = "<group>"; };
+		6C5208231C917C9600634546 /* UILabel+YBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YBAdd.m"; sourceTree = "<group>"; };
+		6C5208241C917C9600634546 /* UINavigationController+JZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+JZExtension.h"; sourceTree = "<group>"; };
+		6C5208251C917C9600634546 /* UINavigationController+JZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+JZExtension.m"; sourceTree = "<group>"; };
+		6C5208261C917C9600634546 /* UINavigationController+YBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+YBAdd.h"; sourceTree = "<group>"; };
+		6C5208271C917C9600634546 /* UINavigationController+YBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+YBAdd.m"; sourceTree = "<group>"; };
+		6C5208281C917C9600634546 /* UITextField+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Blocks.h"; sourceTree = "<group>"; };
+		6C5208291C917C9600634546 /* UITextField+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Blocks.m"; sourceTree = "<group>"; };
+		6C52082A1C917C9600634546 /* UITextField+YBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+YBAdd.h"; sourceTree = "<group>"; };
+		6C52082B1C917C9600634546 /* UITextField+YBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+YBAdd.m"; sourceTree = "<group>"; };
+		6C52082C1C917C9600634546 /* UIView+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shake.h"; sourceTree = "<group>"; };
+		6C52082D1C917C9600634546 /* UIView+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shake.m"; sourceTree = "<group>"; };
+		6C52082E1C917C9600634546 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		6C52082F1C917C9600634546 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		6C5208301C917C9600634546 /* UIView+YBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YBAdd.h"; sourceTree = "<group>"; };
+		6C5208311C917C9600634546 /* UIView+YBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YBAdd.m"; sourceTree = "<group>"; };
+		6C5208331C917C9600634546 /* MBProgressHUD+Show.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Show.h"; sourceTree = "<group>"; };
+		6C5208341C917C9600634546 /* MBProgressHUD+Show.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Show.m"; sourceTree = "<group>"; };
+		6C5208351C917C9600634546 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6C5208361C917C9600634546 /* YBFlash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBFlash.h; sourceTree = "<group>"; };
+		6C64480D1C8FD03F005048C7 /* Flash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6448111C8FD03F005048C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C6448131C8FD03F005048C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C6448141C8FD03F005048C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C6448161C8FD03F005048C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C6448171C8FD03F005048C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C64481A1C8FD03F005048C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C64481C1C8FD03F005048C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C64481F1C8FD03F005048C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C6448211C8FD03F005048C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C64482D1C8FEA17005048C7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6C64482E1C8FEA75005048C7 /* MessageKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageKey.h; sourceTree = "<group>"; };
+		6C64482F1C8FEA7E005048C7 /* AppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
+		6C6448301C8FEA90005048C7 /* GloabVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GloabVariables.h; sourceTree = "<group>"; };
+		E2427A0756B4EC497AB12FF0 /* libPods-Flash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7FE83E36B954467851DE9EF /* Pods-Flash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flash/Pods-Flash.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C64480A1C8FD03F005048C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A449A6805346C01053DCF321 /* libPods-Flash.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68D144C4AFC8A312CB453854 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2427A0756B4EC497AB12FF0 /* libPods-Flash.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C52080A1C917C9600634546 /* YBAdd */ = {
+			isa = PBXGroup;
+			children = (
+				6C5208351C917C9600634546 /* README.md */,
+				6C5208361C917C9600634546 /* YBFlash.h */,
+				6C52080B1C917C9600634546 /* Category */,
+				6C5208321C917C9600634546 /* LibAppend */,
+			);
+			path = YBAdd;
+			sourceTree = "<group>";
+		};
+		6C52080B1C917C9600634546 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6C52080C1C917C9600634546 /* Foundation */,
+				6C5208191C917C9600634546 /* UIKit */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6C52080C1C917C9600634546 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				6C52080D1C917C9600634546 /* NSArray+YBAdd.h */,
+				6C52080E1C917C9600634546 /* NSArray+YBAdd.m */,
+				6C52080F1C917C9600634546 /* NSIndexPath+Offset.h */,
+				6C5208101C917C9600634546 /* NSIndexPath+Offset.m */,
+				6C5208111C917C9600634546 /* NSNotificationCenter+MainThread.h */,
+				6C5208121C917C9600634546 /* NSNotificationCenter+MainThread.m */,
+				6C5208131C917C9600634546 /* NSString+RegexCategory.h */,
+				6C5208141C917C9600634546 /* NSString+RegexCategory.m */,
+				6C5208151C917C9600634546 /* NSString+Size.h */,
+				6C5208161C917C9600634546 /* NSString+Size.m */,
+				6C5208171C917C9600634546 /* NSString+YBAdd.h */,
+				6C5208181C917C9600634546 /* NSString+YBAdd.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		6C5208191C917C9600634546 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6C52081A1C917C9600634546 /* UIAlertView+Block.h */,
+				6C52081B1C917C9600634546 /* UIAlertView+Block.m */,
+				6C52081C1C917C9600634546 /* UIButton+Submitting.h */,
+				6C52081D1C917C9600634546 /* UIButton+Submitting.m */,
+				6C52081E1C917C9600634546 /* UIButton+YBAdd.h */,
+				6C52081F1C917C9600634546 /* UIButton+YBAdd.m */,
+				6C5208201C917C9600634546 /* UIColor+YBAdd.h */,
+				6C5208211C917C9600634546 /* UIColor+YBAdd.m */,
+				6C5208221C917C9600634546 /* UILabel+YBAdd.h */,
+				6C5208231C917C9600634546 /* UILabel+YBAdd.m */,
+				6C5208241C917C9600634546 /* UINavigationController+JZExtension.h */,
+				6C5208251C917C9600634546 /* UINavigationController+JZExtension.m */,
+				6C5208261C917C9600634546 /* UINavigationController+YBAdd.h */,
+				6C5208271C917C9600634546 /* UINavigationController+YBAdd.m */,
+				6C5208281C917C9600634546 /* UITextField+Blocks.h */,
+				6C5208291C917C9600634546 /* UITextField+Blocks.m */,
+				6C52082A1C917C9600634546 /* UITextField+YBAdd.h */,
+				6C52082B1C917C9600634546 /* UITextField+YBAdd.m */,
+				6C52082C1C917C9600634546 /* UIView+Shake.h */,
+				6C52082D1C917C9600634546 /* UIView+Shake.m */,
+				6C52082E1C917C9600634546 /* UIView+Toast.h */,
+				6C52082F1C917C9600634546 /* UIView+Toast.m */,
+				6C5208301C917C9600634546 /* UIView+YBAdd.h */,
+				6C5208311C917C9600634546 /* UIView+YBAdd.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		6C5208321C917C9600634546 /* LibAppend */ = {
+			isa = PBXGroup;
+			children = (
+				6C5208331C917C9600634546 /* MBProgressHUD+Show.h */,
+				6C5208341C917C9600634546 /* MBProgressHUD+Show.m */,
+			);
+			path = LibAppend;
+			sourceTree = "<group>";
+		};
+		6C6448041C8FD03F005048C7 = {
+			isa = PBXGroup;
+			children = (
+				6C64480F1C8FD03F005048C7 /* Flash */,
+				6C64480E1C8FD03F005048C7 /* Products */,
+				7ADE58426F254FDE80FF06B5 /* Pods */,
+				68D144C4AFC8A312CB453854 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C64480E1C8FD03F005048C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C64480D1C8FD03F005048C7 /* Flash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C64480F1C8FD03F005048C7 /* Flash */ = {
+			isa = PBXGroup;
+			children = (
+				6C6448381C8FF6DF005048C7 /* Flash */,
+				6C6448131C8FD03F005048C7 /* AppDelegate.h */,
+				6C6448141C8FD03F005048C7 /* AppDelegate.m */,
+				6C6448161C8FD03F005048C7 /* ViewController.h */,
+				6C6448171C8FD03F005048C7 /* ViewController.m */,
+				6C6448191C8FD03F005048C7 /* Main.storyboard */,
+				6C64481C1C8FD03F005048C7 /* Assets.xcassets */,
+				6C64481E1C8FD03F005048C7 /* LaunchScreen.storyboard */,
+				6C6448211C8FD03F005048C7 /* Info.plist */,
+				6C6448101C8FD03F005048C7 /* Supporting Files */,
+				6C64482D1C8FEA17005048C7 /* PrefixHeader.pch */,
+			);
+			path = Flash;
+			sourceTree = "<group>";
+		};
+		6C6448101C8FD03F005048C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C6448111C8FD03F005048C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C6448271C8FE86F005048C7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6C64482F1C8FEA7E005048C7 /* AppMacros.h */,
+				6C64482E1C8FEA75005048C7 /* MessageKey.h */,
+				6C6448301C8FEA90005048C7 /* GloabVariables.h */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		6C6448381C8FF6DF005048C7 /* Flash */ = {
+			isa = PBXGroup;
+			children = (
+				6C52080A1C917C9600634546 /* YBAdd */,
+				6C6448271C8FE86F005048C7 /* Category */,
+			);
+			name = Flash;
+			sourceTree = "<group>";
+		};
+		7ADE58426F254FDE80FF06B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7FE83E36B954467851DE9EF /* Pods-Flash.debug.xcconfig */,
+				143CD0A24EDF07FA67BB470B /* Pods-Flash.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C64480C1C8FD03F005048C7 /* Flash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6448241C8FD03F005048C7 /* Build configuration list for PBXNativeTarget "Flash" */;
+			buildPhases = (
+				177D92D0AD9134229535F664 /* Check Pods Manifest.lock */,
+				6C6448091C8FD03F005048C7 /* Sources */,
+				6C64480A1C8FD03F005048C7 /* Frameworks */,
+				6C64480B1C8FD03F005048C7 /* Resources */,
+				4255BEF2250F0F7008B4F75E /* Embed Pods Frameworks */,
+				6528B77008FC099BE1FAE2F4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flash;
+			productName = Flash;
+			productReference = 6C64480D1C8FD03F005048C7 /* Flash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C6448051C8FD03F005048C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mr.Q;
+				TargetAttributes = {
+					6C64480C1C8FD03F005048C7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6C6448081C8FD03F005048C7 /* Build configuration list for PBXProject "Flash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C6448041C8FD03F005048C7;
+			productRefGroup = 6C64480E1C8FD03F005048C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C64480C1C8FD03F005048C7 /* Flash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C64480B1C8FD03F005048C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6448201C8FD03F005048C7 /* LaunchScreen.storyboard in Resources */,
+				6C64481D1C8FD03F005048C7 /* Assets.xcassets in Resources */,
+				6C64481B1C8FD03F005048C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		177D92D0AD9134229535F664 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4255BEF2250F0F7008B4F75E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flash/Pods-Flash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6528B77008FC099BE1FAE2F4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flash/Pods-Flash-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C6448091C8FD03F005048C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5208491C917C9600634546 /* MBProgressHUD+Show.m in Sources */,
+				6C5208401C917C9600634546 /* UIColor+YBAdd.m in Sources */,
+				6C52083B1C917C9600634546 /* NSString+Size.m in Sources */,
+				6C6448181C8FD03F005048C7 /* ViewController.m in Sources */,
+				6C52083E1C917C9600634546 /* UIButton+Submitting.m in Sources */,
+				6C52083C1C917C9600634546 /* NSString+YBAdd.m in Sources */,
+				6C52083F1C917C9600634546 /* UIButton+YBAdd.m in Sources */,
+				6C5208481C917C9600634546 /* UIView+YBAdd.m in Sources */,
+				6C52084A1C917C9600634546 /* README.md in Sources */,
+				6C5208371C917C9600634546 /* NSArray+YBAdd.m in Sources */,
+				6C52083A1C917C9600634546 /* NSString+RegexCategory.m in Sources */,
+				6C5208471C917C9600634546 /* UIView+Toast.m in Sources */,
+				6C5208451C917C9600634546 /* UITextField+YBAdd.m in Sources */,
+				6C5208381C917C9600634546 /* NSIndexPath+Offset.m in Sources */,
+				6C6448151C8FD03F005048C7 /* AppDelegate.m in Sources */,
+				6C5208431C917C9600634546 /* UINavigationController+YBAdd.m in Sources */,
+				6C5208461C917C9600634546 /* UIView+Shake.m in Sources */,
+				6C52083D1C917C9600634546 /* UIAlertView+Block.m in Sources */,
+				6C6448121C8FD03F005048C7 /* main.m in Sources */,
+				6C5208441C917C9600634546 /* UITextField+Blocks.m in Sources */,
+				6C5208391C917C9600634546 /* NSNotificationCenter+MainThread.m in Sources */,
+				6C5208411C917C9600634546 /* UILabel+YBAdd.m in Sources */,
+				6C5208421C917C9600634546 /* UINavigationController+JZExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C6448191C8FD03F005048C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C64481A1C8FD03F005048C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C64481E1C8FD03F005048C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C64481F1C8FD03F005048C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C6448221C8FD03F005048C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C6448231C8FD03F005048C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C6448251C8FD03F005048C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7FE83E36B954467851DE9EF /* Pods-Flash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Flash/PrefixHeader.pch";
+				INFOPLIST_FILE = Flash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.queuey.Flash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C6448261C8FD03F005048C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143CD0A24EDF07FA67BB470B /* Pods-Flash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Flash/PrefixHeader.pch";
+				INFOPLIST_FILE = Flash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.queuey.Flash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C6448081C8FD03F005048C7 /* Build configuration list for PBXProject "Flash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6448221C8FD03F005048C7 /* Debug */,
+				6C6448231C8FD03F005048C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C6448241C8FD03F005048C7 /* Build configuration list for PBXNativeTarget "Flash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6448251C8FD03F005048C7 /* Debug */,
+				6C6448261C8FD03F005048C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C6448051C8FD03F005048C7 /* Project object */;
+}
